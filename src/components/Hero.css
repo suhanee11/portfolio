@@ -1,0 +1,52 @@
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 60px 40px 40px;
+  text-align: left;
+}
+
+.hero-photo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #f4a8c0;
+  box-shadow: 0 0 0 6px rgba(244, 168, 192, 0.2);
+  flex-shrink: 0;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-name {
+  font-size: 48px;
+  margin: 0;
+  background: linear-gradient(to right, #b5475a, #e8527a, #c9a6b5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-tagline {
+  font-size: 18px;
+  color: #c9a6b5;
+  margin-top: 12px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: fit-content;
+  border-right: 2px solid #c9a6b5;
+  animation: typing 3s steps(40) 0.5s forwards, blink 0.75s step-end infinite;
+  max-width: 0;
+}
+
+@keyframes typing {
+  from { max-width: 0 }
+  to { max-width: 500px }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}

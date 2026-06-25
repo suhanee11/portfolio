@@ -1,0 +1,53 @@
+.projects-section {
+  padding: 2rem 0;
+}
+
+.projects-section h2 {
+  color: #b5475a;
+  margin-bottom: 1.5rem;
+}
+
+.project-card {
+  background: #ffffff;
+  border: 1px solid #f4a8c0;
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin-bottom: 1.2rem;
+  text-align: left;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(181, 71, 90, 0.12);
+}
+
+.project-card h3 {
+  color: #2d2d2d;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.project-card p {
+  color: #6b6375;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.project-link {
+  display: inline-block;
+  padding: 0.4rem 1.1rem;
+  border-radius: 20px;
+  border: 1.5px solid #b5475a;
+  color: #b5475a;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.project-link:hover {
+  background: #b5475a;
+  color: #fff;
+}

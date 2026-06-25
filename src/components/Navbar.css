@@ -1,0 +1,72 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.9rem 2rem;
+  background: rgba(253, 246, 240, 0.85);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid #f4a8c0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-logo {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #b5475a;
+  letter-spacing: 1px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.navbar-links button {
+  background: none;
+  border: none;
+  color: #6b6375;
+  font-size: 0.95rem;
+  cursor: pointer;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  transition: color 0.2s ease;
+}
+
+.navbar-links button:hover {
+  color: #b5475a;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar-icon {
+  color: #b5475a;
+  font-size: 1.3rem;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.navbar-icon:hover {
+  opacity: 0.7;
+}
+
+.navbar-contact-btn {
+  background: #e8527a;
+  color: #fff;
+  border: none;
+  padding: 0.45rem 1.1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.navbar-contact-btn:hover {
+  background: #b5475a;
+}
