@@ -1,3 +1,5 @@
+import './About.css'
+
 function About({bio, education}){
     return(
         <div className="about-section">

@@ -1,0 +1,47 @@
+.about-section {
+  padding: 2rem 0;
+}
+
+.about-section h2 {
+  color: #b5475a;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.about-bio {
+  color: #4a4a4a;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.Education-card {
+  background: #ffffff;
+  border: 1px solid #f4a8c0;
+  border-radius: 16px;
+  padding: 1.5rem;
+}
+
+.Education-card h3 {
+  color: #2d2d2d;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.education-degree {
+  color: #6b6375;
+  margin: 0.2rem 0;
+  font-size: 0.95rem;
+}
+
+.education-meta {
+  color: #9a8fa0;
+  font-size: 0.9rem;
+  margin: 0.2rem 0;
+}
+
+.education-coursework {
+  color: #6b6375;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}

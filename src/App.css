@@ -181,4 +181,22 @@
     right: 0;
     border-right-color: var(--border);
   }
+  .resume-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.4rem;
+  border-radius: 20px;
+  border: 1.5px solid #b5475a;
+  background: #b5475a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+}
+
+.resume-btn:hover {
+  background: #8f3548;
+  transform: translateY(-2px);
+}
 }

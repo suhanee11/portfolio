@@ -20,6 +20,13 @@ function Navbar(){
                 <a href="https://linkedin.com/in/suhaneegupta" target="_blank" rel="noreferrer" className="navbar-icon">
                     <FaLinkedin />
                 </a>
+                <a
+                href="/Suhanee_Gupta_Resume.pdf"
+  download="Suhanee_Gupta_Resume.pdf"
+  className="navbar-resume-link"
+>
+  Resume
+</a>
                 <button onClick={()=> scrollToSection("contact")} className="navbar-contact-btn">
                     Contact
                 </button>

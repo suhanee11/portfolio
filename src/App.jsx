@@ -14,6 +14,13 @@ function App(){
       name="Suhanee Gupta" 
       tagline="Backend Engineer | Full-Stack Developer | Open Source Builder" 
       />
+      <a
+      href="/Suhanee_Gupta_Resume.pdf"
+  download="Suhanee_Gupta_Resume.pdf"
+  className="resume-btn"
+>
+  Download Resume ↓
+</a>
       <div id="about">
       <About
         bio="Backend-focused CS undergraduate building full-stack systems with Spring Boot, React, and Go. Built and deployed an AI-powered mock interview platform with ATS resume scoring and Gemini API integration. Seeking a technical internship to apply backend and system-design skills in a product environment."
