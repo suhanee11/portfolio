@@ -12,7 +12,7 @@ function App(){
       <Navbar />
       <Hero 
       name="Suhanee Gupta" 
-      tagline="Software developer building things on the web" 
+      tagline="Backend Engineer | Full-Stack Developer | Open Source Builder" 
       />
       <div id="about">
       <About
@@ -44,18 +44,21 @@ function App(){
           {
             title:"AI Mock Interview Platform",
             description:"Full-stack AI interview tool with PDF resume upload, ATS scoring, and Gemini-powered question generation with speech-to-text and ML-driven feedback.",
-            link:"https://github.com/suhanee11/ai-mock-interview"
+            link:"https://github.com/suhanee11/ai-mock-interview",
+            tags: ["React", "Spring Boot", "MySQL", "Gemini API", "AWS"]
           },
           {
             title:"Subscription Manager",
             description:"Full-stack subscription management system with JWT auth, refresh-token rotation, and renewal reminders.",
-            link:"https://github.com/suhanee11/subscription-manager"
+            link:"https://github.com/suhanee11/subscription-manager",
+            tags: ["React", "Spring Boot", "MySQL", "JWT"]
 
           },
           {
             title:"Hot Reload CLI Tool",
             description:"Go CLI tool using fsnotify that watches the filesystem and auto-rebuilds/restarts apps on save.",
-            link:"https://github.com/suhanee11/hotreload"
+            link:"https://github.com/suhanee11/hotreload",
+            tags: ["Go", "CLI", "fsnotify"]
 
           }
         ]}

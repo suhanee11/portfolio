@@ -51,3 +51,20 @@
   background: #b5475a;
   color: #fff;
 }
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 1rem;
+}
+
+.project-tag {
+  background: #fff0f5;
+  color: #b5475a;
+  border: 1px solid #f4a8c0;
+  border-radius: 20px;
+  padding: 3px 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}

@@ -70,3 +70,27 @@
 .navbar-contact-btn:hover {
   background: #b5475a;
 }
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 0.7rem 1rem;
+  }
+
+  .navbar-links {
+    gap: 0;
+  }
+
+  .navbar-links button {
+    padding: 0.4rem 0.5rem;
+    font-size: 0.85rem;
+  }
+
+  .navbar-right {
+    gap: 0.5rem;
+  }
+
+  .navbar-contact-btn {
+    padding: 0.4rem 0.7rem;
+    font-size: 0.8rem;
+  }
+}
