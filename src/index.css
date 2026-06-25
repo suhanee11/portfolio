@@ -59,10 +59,9 @@ body {
 }
 
 #root {
-  width: 1126px;
+  width: 100%;
   max-width: 100%;
   margin: 0 auto;
-  text-align: center;
   border-inline: 1px solid var(--border);
   min-height: 100svh;
   display: flex;
@@ -70,22 +69,13 @@ body {
   box-sizing: border-box;
 }
 
-h1,
+
 h2 {
   font-family: var(--heading);
   font-weight: 500;
   color: var(--text-h);
 }
 
-h1 {
-  font-size: 56px;
-  letter-spacing: -1.68px;
-  margin: 32px 0;
-  @media (max-width: 1024px) {
-    font-size: 36px;
-    margin: 20px 0;
-  }
-}
 h2 {
   font-size: 24px;
   line-height: 118%;
@@ -114,10 +104,12 @@ code {
   background: var(--code-bg);
 }
 
-.page-container{
-  max-width:900px;
-  margin:0 auto;
+.page-container {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
   padding: 40px 20px;
+  box-sizing: border-box;
 }
 
 .skill-category{
@@ -142,4 +134,8 @@ code {
   font-size:14px;
   background_color:#fff0f5;
   color:#c2185b;
+}
+
+#root {
+  overflow: visible;
 }

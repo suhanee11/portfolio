@@ -11,7 +11,7 @@ function App(){
     <div className="page-container">
       <Navbar />
       <Hero 
-      name="Suhanee gupta" 
+      name="Suhanee Gupta" 
       tagline="Software developer building things on the web" 
       />
       <div id="about">
